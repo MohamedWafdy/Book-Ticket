@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egypt Air</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body bgcolor="lavender">
+    <p class="cen"> <a href="#" class="back">Back</a></p>
+    <h1> Book a Ticket </h1> 
+    <fieldset class="vvs">
+        <p> <span>Determine Date of Going and return:</span> </p>
+            <p class="date"> <label> From : </label> <input type="date">
+                <label> To : </label> <input type="date"> </p>
+    </fieldset>
+        <table>
+            <tr>
+                <td>
+                    <fieldset class="rt"> <h3> <span>Billing Address</span> </h3> 
+                        <label id="f"> <span>👤Full Name</span> </label> <input id="d" type="text" placeholder="John M. Doe">
+                        <label id="f"> <span>📧Email</span> </label> <input id="d" type="email" placeholder="john@example.com">
+                        <label id="f"> <span>💳Address</span> </label> <input id="d" type="text" placeholder="542 W. 15th Street">
+                        <label id="f"> <span>🏛City</span> </label> <input id="d" type="text" placeholder="New York">
+                        <table>
+                            <tr>
+                                <td> <label id="f"> <span>State</span> </label> <input id="dd" type="text" placeholder="NY"> </td>
+                                <td><label id="f"> <span>Zip</span> </label> <input id="dd" type="number" placeholder="10001"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset class="lt"> <h3> <span> Payment </span> </h3>
+                        <p class="card"> Accepted Cards </p>
+                        <img src="visa.jpg" width="150px" height="25px">
+                        <label id="f"> <span>Name on Card</span> </label> <input id="d" type="text" placeholder="John More Doe">
+                        <label id="f"> <span>Credit card number</span> </label> <input id="d" type="text" placeholder="1111-2222-3333-4444">
+                        <label id="f"> <span>Exp Month</span> </label> <input id="d" type="text" placeholder="September">
+                        <table>
+                            <tr>
+                                <td> <label id="f"> <span>Exp Year</span> </label> <input id="dd" type="number" placeholder="2018"> </td>
+                                <td><label id="f"> <span>CVV</span> </label> <input id="dd" type="number" placeholder="352"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+            <p class="foot" onclick="myalert()"> <a href="#" class="now" >Book Now</a> </p>
+            <script>function myalert(){alert("Reservation done");}</script>
+</body>
+</html>
